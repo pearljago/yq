@@ -1,59 +1,18 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
 
-# Folders
-_obj
-_test
-bin
-build
-build-done
-.DS_Store
+# Other files and folders
+.settings/
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
 
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
-
-_testmain.go
-coverage.out
-coverage.html
-*.exe
-*.test
-*.prof
-yaml
-vendor/
-tmp/
-cover/
-yq
-
-# snapcraft
-parts/
-prime/
-.snapcraft/
-yq*.snap
-
-test.yml
-test*.yml
-test*.yaml
-0.yml
-1.yml
-2.yml
-
-
-# man page
-man.md
-yq.1
-
-# debian pkg
-_build
-debian/files
-
-# intellij
-/.idea
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
